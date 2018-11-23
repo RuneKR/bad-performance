@@ -1,0 +1,32 @@
+{
+  "name": "view-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "packages:build": "node tasks/symlink && node/build",
+    "storybook": "start-storybook -p 6006",
+    "symlink": "node ./tasks/symlink",
+    "build": "node ./tasks/build",
+    "build-storybook": "build-storybook"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@storybook/react": "^4.0.8",
+    "@types/react": "^16.7.7",
+    "@types/storybook__react": "^4.0.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "typescript": "^3.1.6"
+  },
+  "devDependencies": {
+    "@storybook/react": "^4.0.8",
+    "@storybook/addon-actions": "^4.0.8",
+    "@storybook/addon-links": "^4.0.8",
+    "@storybook/addons": "^4.0.8",
+    "@babel/core": "^7.1.6",
+    "babel-loader": "^8.0.4"
+  }
+}
