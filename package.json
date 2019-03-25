@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "packages:build": "node tasks/symlink && node/build",
-    "storybook": "start-storybook -p 6006",
     "symlink": "node ./tasks/symlink",
-    "build": "node ./tasks/build",
-    "build-storybook": "build-storybook"
+    "build": "node ./tasks/build"
   },
   "author": "",
   "license": "ISC",
