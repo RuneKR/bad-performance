@@ -6,7 +6,8 @@
   "scripts": {
     "packages:build": "node tasks/symlink && node/build",
     "symlink": "node ./tasks/symlink",
-    "build": "node ./tasks/build"
+    "build": "node ./tasks/build",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -16,10 +17,10 @@
     "@types/react-dom": "^16.8.3",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.11.2",
-    "jest": "^24.5.0",
+    "jest": "^24.9.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "ts-jest": "^24.0.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.1.6"
   }
 }
