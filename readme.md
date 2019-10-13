@@ -2,4 +2,7 @@ Example of jest bug
 
 npm install
 npm run symlink
-npm run test --prefix ./packages/node_modules/@org/demo
+npm run test
+
+You need at least 2 packages then it works...
+
